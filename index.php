@@ -13,13 +13,10 @@ var_dump($db_connection);
 
 
  
-$query="CREATE TABLE Persons (
-    PersonID int,
-    LastName varchar(255),
-    FirstName varchar(255),
-    Address varchar(255),
-    City varchar(255) 
-);";
+$query="INSERT INTO COMPANY (PersonID,LastName,FirstName,Address,City) VALUES (1, 'keyur','khole','narayanpeth','pune');";
+
+
+
 
 pg_query($db_connection, $query);
 
