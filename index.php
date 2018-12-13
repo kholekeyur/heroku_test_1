@@ -1,5 +1,6 @@
-n<?php
-
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
  
          $db_connection = pg_connect ("  host=ec2-46-51-184-66.eu-west-1.compute.amazonaws.com 
                                         dbname=dbns3a2p2i30bj 
