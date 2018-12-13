@@ -7,7 +7,21 @@
                                         password=2877bd9ce71d8d9b8c0cb27ed2a41c31863f6468a28183867e9c682bed0fc73b"  );
 
 
-      var_dump($db_connection);
+
+
+var_dump($db_connection);
+
+
+ 
+$query="CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255) 
+);";
+
+pg_query($db_connection, $query);
 
 
 ?>
