@@ -1,4 +1,4 @@
-<?php
+n<?php
 
  
          $db_connection = pg_connect ("  host=ec2-46-51-184-66.eu-west-1.compute.amazonaws.com 
@@ -13,7 +13,7 @@ var_dump($db_connection);
 
 
  
-$query="INSERT INTO COMPANY (PersonID,LastName,FirstName,Address,City) VALUES (1, 'keyur','khole','narayanpeth','pune');";
+$query="INSERT INTO Persons (PersonID,LastName,FirstName,Address,City) VALUES (1, 'keyur','khole','narayanpeth','pune');";
 
 
 
