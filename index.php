@@ -21,5 +21,7 @@ $query="INSERT INTO Persons (PersonID,LastName,FirstName,Address,City) VALUES (1
 
 pg_query($db_connection, $query);
 
+echo "Hi AVinash";
+
 
 ?>
