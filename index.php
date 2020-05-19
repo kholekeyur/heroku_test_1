@@ -60,7 +60,7 @@ pg_query($db_connection, $query);
 							<div class="iconyeri">
 								<i class="fa fa-file-text-o fa-3x"></i>
 							</div>
-							<span class="bidbkatBaslik">İdari</span>
+							<span class="bidbkatBaslik"><?php echo "keyur";   ?> </span>
 							<p class="bidbkatacikla">The standard chunk of Lorem Ipsum used since the 1500s is reproducbelow for those interested. Sections 1.10.32 and 1.10.33 from “de Fi</p>
 						</div>
 					</div>
@@ -70,7 +70,7 @@ pg_query($db_connection, $query);
 							<div class="iconyeri">
 								<i class="fa fa-file-text-o fa-3x"></i>
 							</div>
-							<span class="bidbkatBaslik">Teknik Servis</span>
+							<span class="bidbkatBaslik"><?php echo "ram";   ?></span>
 							<p class="bidbkatacikla">The standard chunk of Lorem Ipsum used since the 1500s is reproducbelow for those interested. Sections 1.10.32 and 1.10.33 from “de Fi</p>
 						</div>
 					</div>
@@ -80,7 +80,7 @@ pg_query($db_connection, $query);
 							<div class="iconyeri">
 								<i class="fa fa-file-text-o fa-3x"></i>
 							</div>
-							<span class="bidbkatBaslik">Web Tasarım</span>
+							<span class="bidbkatBaslik"><?php echo "oomm";   ?></span>
 							<p class="bidbkatacikla">The standard chunk of Lorem Ipsum used since the 1500s is reproducbelow for those interested. Sections 1.10.32 and 1.10.33 from “de Fi</p>
 						</div>
 					</div>
@@ -91,7 +91,7 @@ pg_query($db_connection, $query);
 							<div class="iconyeri">
 								<i class="fa fa-file-text-o fa-3x"></i>
 							</div>
-							<span class="bidbkatBaslik">Yazılım Geliştirme</span>
+							<span class="bidbkatBaslik"><?php echo "bhara";   ?></span>
 							<p class="bidbkatacikla">The standard chunk of Lorem Ipsum used since the 1500s is reproducbelow for those interested. Sections 1.10.32 and 1.10.33 from “de Fi</p>
 						</div>
 					</div>
